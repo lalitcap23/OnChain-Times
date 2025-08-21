@@ -1,0 +1,20 @@
+RewardToken Contract:
+```
+Deployer: 0x49c4f4b258B715A4d50e6642F325946e62A6B7bA
+Deployed to: 0x0ef64E8A90fBb3eC0f14854923Dd10DB869915Bd
+Transaction hash: 0x0977b0692396a803ebe798f5b12c48c96116092ca2851c66e95fbc8b789d7625
+``
+
+Reward Contract:
+```
+Deployer: 0x49c4f4b258B715A4d50e6642F325946e62A6B7bA
+Deployed to: 0x95961fe1bd6dc11343f09e88316ae2bbd2a925c3
+Transaction hash: 0x8eb5d396f2c0fcc1d9210924b2a63108e2675e2a497dcaf974fb1cb16065c02f
+```
+
+NewsNFT Contract:
+```
+Deployer: 0x49c4f4b258B715A4d50e6642F325946e62A6B7bA
+Deployed to: 0xf556f27a5d42c834794b20e5895ffe469e031da7
+Transaction hash: 0x1c376146ce4691bd385a8baf55f0351f07ba8f77568a218631403d649687b91f
+```
