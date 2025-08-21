@@ -1,0 +1,31 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model News {
+  id                String  @id @default(cuid())  
+  title             String  
+  summary           String  
+  author            String  
+  confidence_score  Int?
+  has_minted        Boolean @default(false)  
+  has_seen          Boolean @default(false)  
+
+  mintedBy          User[] @relation("MintedNews")  
+  seenBy            User[] @relation("SeenNews")  
+}
+
+model User {
+  id             String   @id @default(cuid())  
+  walletAddress  String   @unique  
+  totalRewards   Int      @default(0)  
+  swappedNews    Int      @default(0)  
+
+  mintedNews     News[]   @relation("MintedNews")  
+  seenNews       News[]   @relation("SeenNews")  
+}
