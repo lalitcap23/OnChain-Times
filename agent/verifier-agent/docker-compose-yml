@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  news-verifier:
+    image: jainsamyak15/news-verifier:autonome
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - TOGETHER_API_KEY=${TOGETHER_API_KEY}
