@@ -1,0 +1,3 @@
+this folder contains post requests. 
+
+signup login and posting the news
